@@ -1,0 +1,20 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["react"],
+  "rules": {
+    "no-console": 0,
+    "react/jsx-uses-vars": [2],
+    "react/jsx-no-undef": "error"
+  }
+}
